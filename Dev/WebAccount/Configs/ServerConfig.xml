@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Root>
+  <AreaServerId>1</AreaServerId>
+  <CurrServerType>3</CurrServerType>
+  <CurrServerId>1</CurrServerId>
+  <MongoConnectionString>mongodb://127.0.0.1</MongoConnectionString>
+  <RedisConnectionString>127.0.0.1:6379</RedisConnectionString>
+  <DataTablePath>D:\WorkSpaces\WorkSpace_WSCE\Release\Dev\DataTable</DataTablePath>
+
+  <Servers>
+    <Item ServerType ="0" ServerId = "1" OutIp="192.168.0.107" OutPort="1301" InrIp="127.0.0.1" InrPort="1101"/> <!--中心服务器-->
+    <Item ServerType ="1" ServerId = "1" OutIp="192.168.0.107" OutPort="1302" InrIp="127.0.0.1" InrPort="1102"/> <!--游戏服务器1-->
+    <Item ServerType ="1" ServerId = "2" OutIp="192.168.0.107" OutPort="1303" InrIp="127.0.0.1" InrPort="1103"/> <!--游戏服务器2-->
+    <Item ServerType ="2" ServerId = "1" OutIp="192.168.0.107" OutPort="1304" InrIp="127.0.0.1" InrPort="1104"/> <!--网关服务器1-->
+    <Item ServerType ="2" ServerId = "2" OutIp="192.168.0.107" OutPort="1305" InrIp="127.0.0.1" InrPort="1105"/> <!--网关服务器2-->
+  </Servers>
+
+</Root>
